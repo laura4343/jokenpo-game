@@ -1,0 +1,38 @@
+* {
+  font-family: "Montserrat Alternates", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  background-color: rgb(210, 205, 255);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+}
+
+.options {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+button {
+  background-color: transparent;
+  font-size: 73px;
+  border: 0;
+  cursor: pointer;
+}
+button:hover {
+  font-size: 75px;
+}
+
+p {
+  font-size: 24px;
+  text-align: center;
+}
+
+.textos {
+  margin-top: 60px;
+}

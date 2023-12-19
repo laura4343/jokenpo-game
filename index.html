@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jokenpô</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Pixelify+Sans&display=swap");
+    </style>
+  </head>
+  <body>
+    <h1 class="header">Jokenpô Game</h1>
+
+    <div class="options">
+      <button class="botao" id="pedra" onclick="jogar('pedra')">👊</button>
+      <button class="botao" id="papel" onclick="jogar('papel')">🤚</button>
+      <button class="botao" id="tesoura" onclick="jogar('tesoura')">✌️</button>
+    </div>
+
+    <div class="textos">
+      <p>Você - <span id="voce"></span></p>
+      <p>Computador - <span id="computador"></span></p>
+    </div>
+  </body>
+</html>
